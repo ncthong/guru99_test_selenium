@@ -23,7 +23,7 @@ public class LoginTest {
     }
 
     @Test
-    @DisplayName("TC001")
+    @DisplayName("Test login")
     public void TestCase001() {
         loginPage = new LoginPage(driver);
         loginPage.setUserName("mngr26593");
