@@ -23,7 +23,7 @@ public class WidthdrawTest {
     }
 
     @Test
-    @DisplayName("TC001")
+    @DisplayName("Test WithDrawal")
     public void TestCase001() {
         widthdrawPage = new WidthdrawPage(driver);
         widthdrawPage.setAccountNo("93653");
