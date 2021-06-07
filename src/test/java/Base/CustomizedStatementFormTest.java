@@ -20,7 +20,7 @@ public class CustomizedStatementFormTest {
     }
 
     @Test
-    @DisplayName("TC001")
+    @DisplayName("Test")
     public void TestCase001() {
         customizedStatementFormPage = new CustomizedStatementFormPage(driver);
         customizedStatementFormPage.setAccountNo("123456");
