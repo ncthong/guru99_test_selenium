@@ -22,7 +22,7 @@ public class FundTransferTest {
     }
 
     @Test
-    @DisplayName("TC001")
+    @DisplayName("Test Fund Transfer")
     public void TestCase001() {
         fundTransferPage = new FundTransferPage(driver);
         fundTransferPage.setPayersAccount("93653");
