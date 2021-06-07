@@ -24,7 +24,7 @@ public class NewCustomerTest {
     }
 
     @Test
-    @DisplayName("TC001")
+    @DisplayName("Test New Customer")
     public void TestCase001() {
         newCustomerPage = new NewCustomerPage(driver);
         newCustomerPage.setCustomer_name("LNS");
