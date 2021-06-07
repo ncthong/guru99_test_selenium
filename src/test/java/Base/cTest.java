@@ -23,12 +23,12 @@ public class DepositTest {
     }
 
     @Test
-    @DisplayName("TC001")
+    @DisplayName("Test Deposit")
     public void TestCase001() {
         depositPage = new DepositPage(driver);
-        depositPage.setAccountNo("123");
-        depositPage.setAmount("1000");
-        depositPage.setDesc("guitien");
+        depositPage.setAccountNo("93653");
+        depositPage.setAmount("10000");
+        depositPage.setDesc("gui tien");
         depositPage.clickSubmitButton();
     }
 
