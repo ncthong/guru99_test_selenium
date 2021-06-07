@@ -23,7 +23,7 @@ public class NewAccountTest {
     }
 
     @Test
-    @DisplayName("TC001")
+    @DisplayName("Test New Account")
     public void TestCase001() {
         newAccountPage = new NewAccountPage(driver);
         newAccountPage.setCustomer_id("66040");
